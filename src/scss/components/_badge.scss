@@ -1,26 +1,19 @@
+@use "../utils" as forward;
+
 .badge {
-  display: inline-block;
-  min-width: 96px;
-  padding: 4px 8px;
+  @include forward.badge-base();
 
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.07px;
-  text-align: center;
-  color: #ffffff;
-
-  border-radius: 20px;
+  color: forward.$badge-cl;
 }
 
 .badge-completed {
-  background-color: #a461d8;
+  background-color: forward.$completed;
 }
 
 .badge-ended {
-  background-color: #fc5a5a;
+  background-color: forward.$ended;
 }
 
 .badge-active {
-  background-color: #82c43c;
+  background-color: forward.$active;
 }
