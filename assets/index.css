@@ -172,8 +172,8 @@ meter {
   line-height: 20px;
   letter-spacing: 0.07px;
   text-align: center;
-  color: #ffffff;
   border-radius: 20px;
+  color: #ffffff;
 }
 
 .badge-completed {
